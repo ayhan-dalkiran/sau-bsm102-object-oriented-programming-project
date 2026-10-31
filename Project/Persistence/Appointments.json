@@ -1,0 +1,14 @@
+[
+	{
+		"Date": "2024-05-15T11:40:00",
+		"CustomerName": "Kazım Karabekir",
+		"CustomerTelephone": "+90 (123) 456 7890",
+		"Description": "Saç baş"
+	},
+	{
+		"Date": "2024-05-15T13:20:00",
+		"CustomerName": "Hamza Gündoğdu",
+		"CustomerTelephone": "+90 (234) 567 8901",
+		"Description": "Saç Yıkama"
+	}
+]

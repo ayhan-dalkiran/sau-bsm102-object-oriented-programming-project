@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Project.Prompts.AppointmentPrompt">
+    <Position X="6.75" Y="11.25" Width="3.25" />
+    <Members>
+      <Method Name="AppointmentPrompt" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label3" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="tableLayoutPanel1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BAAAgAAAACAAABEAAADAAEADAAAABAAAAAAAAAAAACA=</HashCode>
+      <FileName>Prompts\AppointmentPrompt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Prompts.BasePrompt">
+    <Position X="12" Y="8.25" Width="1.75" />
+    <Members>
+      <Method Name="BasePrompt" Hidden="true" />
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAACAAAAAAAACAAAACQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Prompts\BasePrompt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Prompts.PersonnelPrompt">
+    <Position X="10.75" Y="11.25" Width="3.5" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Field Name="label4" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Method Name="PersonnelPrompt" Hidden="true" />
+      <Field Name="tableLayoutPanel1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>ABAAEAAAACAAABAAAASAAAACAAAABAAAQAAIAAAAACA=</HashCode>
+      <FileName>Prompts\PersonnelPrompt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Prompts.ServicePrompt">
+    <Position X="15" Y="11.25" Width="1.75" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label1" Hidden="true" />
+      <Field Name="label2" Hidden="true" />
+      <Method Name="ServicePrompt" Hidden="true" />
+      <Field Name="tableLayoutPanel1" Hidden="true" />
+    </Members>
+    <InheritanceLine Type="Project.Prompts.BasePrompt" ManuallyRouted="true">
+      <Path>
+        <Point X="12.875" Y="9.675" />
+        <Point X="12.875" Y="10.875" />
+        <Point X="15.875" Y="10.875" />
+        <Point X="15.875" Y="11.25" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAACAAABAAAACAAAACAAAABIAAAAAAAAAAACA=</HashCode>
+      <FileName>Prompts\ServicePrompt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Prompts.TransactionPrompt">
+    <Position X="17.5" Y="11.25" Width="1.75" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="label5" Hidden="true" />
+      <Field Name="label7" Hidden="true" />
+      <Field Name="label8" Hidden="true" />
+      <Field Name="tableLayoutPanel2" Hidden="true" />
+      <Method Name="TransactionPrompt" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>BAAAAAAQACAAABEAAACAAAADAAAABAAAAAAAAAAAAQA=</HashCode>
+      <FileName>Prompts\TransactionPrompt.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Appointment">
+    <Position X="8.25" Y="4.5" Width="2.25" />
+    <Members>
+      <Method Name="OnCustomerPropertyChanged" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAgAQAAAAAAAAAAQAAAAAAFFAAAAAAAgAA=</HashCode>
+      <FileName>DataPanelObjects\Appointment.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.DataPanelObject">
+    <Position X="11.75" Y="1.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAgAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>DataPanelObjects\DataPanelObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Person">
+    <Position X="15.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAQAAAAAAAAAAIAAAAAAAAA=</HashCode>
+      <FileName>DataPanelObjects\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Personnel">
+    <Position X="15.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAgAAAAAAACAEAAAAAAAAAAAA=</HashCode>
+      <FileName>DataPanelObjects\Personnel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Service">
+    <Position X="11.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAEAgAAIAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DataPanelObjects\Service.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.Transaction">
+    <Position X="13.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAgAAAAAAAAAACAAAAAAAAFBAAAAAAAAAA=</HashCode>
+      <FileName>DataPanelObjects\Transaction.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.DataPanel">
+    <Position X="17.75" Y="1.25" Width="2.75" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Method Name="DataPanel" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="tableLayoutPanel1" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AABAAACAAaACAAAIDBCAAAQKAAAwAAAAIBBACMAAQCg=</HashCode>
+      <FileName>DataPanel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project.MainForm">
+    <Position X="22.5" Y="1.25" Width="3.25" />
+    <Members>
+      <Field Name="components" Hidden="true" />
+      <Method Name="Dispose" Hidden="true" />
+      <Method Name="InitializeComponent" Hidden="true" />
+      <Field Name="tabControl1" Hidden="true" />
+      <Field Name="tabPage1" Hidden="true" />
+      <Field Name="tabPage2" Hidden="true" />
+      <Field Name="tabPage3" Hidden="true" />
+      <Field Name="tabPage4" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EATAYAGAACIAQAAYAACKAEgCAAAAgAACAAAIAwABBgA=</HashCode>
+      <FileName>MainForm.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="ServicesDataPanel" />
+      <Field Name="PersonnelsDataPanel" />
+      <Field Name="AppointmentsDataPanel" />
+      <Field Name="TransactionsDataPanel" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Project.Persistence">
+    <Position X="18.5" Y="7.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>gACAAAAEAAAQAAAAAAAAAAAQQAAAAIAAQAAAIABACAA=</HashCode>
+      <FileName>Persistence.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
